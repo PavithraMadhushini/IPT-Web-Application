@@ -1,0 +1,116 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+   
+    <title>Signin Template for Bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+</head>
+<body style="background-image: url('images/search.jpg'); background-repeat: no-repeat;
+background-size: cover; height:500px;">
+	
+<!--============================================================================================== -->
+<!--Navbar -->
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">IPT PROGRAME</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li ><a href="Admin-home.html">Home</a></li>
+        <li ><a href="membership.html">Accept User</a></li>
+        <li class="active"><a href="studentsearch.html">Search Student</a></li>
+        <li><a href="users.html">Remove User</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+       
+        <li><a href="index.html"><span class="glyphicon glyphicon-log-in"></span> Log out</a></li>
+      </ul>
+    </div>
+  </nav>
+<!--/.Navbar -->
+<div class="container-login100" style="background-color: peru;">
+	<div class="wrap-login101 p-l-55 p-r-55 p-t-80 p-b-30">
+
+<div style="width: 600px; margin: auto;">
+		<form class="login100-form validate-form" method="#" action="#">
+			<div class="form-row align-items-center">
+				<div class="col-auto">
+				 <label for="inputState">Select Search Type</label>
+				<select id="inputState" class="form-control">
+					<option selected>Choose.. </option>
+					<option value="id">Student ID</option> 
+					<option value="category">Student Category</option>
+				</select>
+			</div>
+
+			<div class="col-auto">
+				<label for="exampleInputname">Enter Search Value</label>
+				<input class="form-control" type="text" placeholder="search by" id="searchkey" name="searchkey">
+			</div>
+<br>
+			<div class="col-auto">
+				<button type="button"  class="btn btn-primary" id="btnsear">
+					<span class="glyphicon glyphicon-search"></span>Search
+				</button>
+</div>
+		</div> 
+			
+		</form>
+</div>
+
+<br><br>
+<section>
+<div class="album py-5 bg-light">
+	<div class="container">
+
+		<div class="row" id="row">
+
+
+		</div>
+	</div>
+</div>
+<br>
+</section>		
+	</div>
+</div>
+
+
+	
+	
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+<!-- </main> -->
+
+<script src="js/jquery.js"></script>
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+<script src="js/semantic.min.js"></script>
+		<script src="js/controller/searchcontroller.js"></script>
+</body>
+
+
+</html>
